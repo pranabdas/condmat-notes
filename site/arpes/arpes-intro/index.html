@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="Pranab Das">
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>ARPES introduction - Condensed Matter Physics</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "ARPES introduction";
+    var mkdocs_page_input_path = "arpes/arpes-intro.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/p.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/y.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/t.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/h.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/o.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/n.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Condensed Matter Physics</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../introduction/">Introduction</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Crystal structure</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../crystal-structure/single-crystal/">Single crystal</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../crystal-structure/lattice/">Bravais lattice</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../crystal-structure/reciprocal-lattice/">Reciprocal lattice and Brillouin zone</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../crystal-structure/bragg-diffraction/">Miller indices and Bragg's diffraction</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Crystal growth</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../crystal-growth/crystal-growth/">Various crystal growth methods</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../crystal-growth/why-single-crystal/">Why single crystal</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../crystal-growth/flux-method/">Flux method</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../crystal-growth/bridgman-method/">Bridgman method</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../crystal-growth/czochralski-method/">Czochralski method</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Characterization</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../characterization/characterization/">Material characterization</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../characterization/edax/">EDAX</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../characterization/powder-xrd/">Powder XRD</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../characterization/laue/">Laue Diffraction</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">ARPES</span>
+    <ul class="subnav">
+                <li class=" current">
+                    
+    <a class="current" href="./">ARPES introduction</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#introduction-angle-resolved-photoemission-spectroscopy">Introduction: Angle Resolved Photoemission SPectroscopy</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#photoemission-spectroscopy">Photoemission spectroscopy:</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../three-step-model/">Three-step model</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../arpes-setup/">ARPES setup</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../spin-arpes/">Spin-ARPES setup</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../about/">About</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Condensed Matter Physics</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>ARPES &raquo;</li>
+        
+      
+    
+    <li>ARPES introduction</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://pranabdas.github.io/"> Homepage</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h3 id="introduction-angle-resolved-photoemission-spectroscopy">Introduction: Angle Resolved Photoemission SPectroscopy</h3>
+<p>The electronic band structure constitutes the macroscopic basis of most physical properties of a material. Whether a solid is insulating, semiconducting, metallic, or superconducting, or it is transparent, or shows a distinct color, is determined by the electronic structure of the solid. </p>
+<p>The classical properties, like thermal conductivity and heat capacity are determined by the electronic structure. A detailed understanding of the electronic structure through microscopic investigations, along with theoretical analysis, is necessary in understanding and development of new materials allowing for detailed control of the properties. The electronic states in a material is described by the electron energy, momentum and spin. </p>
+<h4 id="photoemission-spectroscopy">Photoemission spectroscopy:</h4>
+<p>Photoemission spectroscopy is the most powerful, and the only tool available to directly probe the electronic structure of a material. Photoemission spectroscopy is based on the principle of photo-electric effect, in which the sample under investigation is irradiated with a beam of photon. If the energy of the incident photon <span><span class="MathJax_Preview">(h\nu)</span><script type="math/tex">(h\nu)</script></span> is large enough for the electron to overcome its binding energy and the work function of the solid, an electron is emitted from the system, and can be detected by an electron spectrometer. The electron spectrometer determines the kinetic energy of this electron detected in a particular angle. The angular information is directly related to the momentum information. This is how we can learn about the electronic bands inside the material. </p>
+<p><img alt="ARPES bands schematic" src="../../img/arpes-band-schematic.png" /> </p>
+<p>Schematic of the photoemission process. The density of states of outgoing electrons is proportional to that of the material. This schematic is taken from the Hufner's book. </p>
+<p>Let us consider a material which has this electronic structure: it has two core levels, and valence band near the Fermi energy. Now, if we measure the intensity distribution of photo emitted electrons as a function of electron kinetic energy, we would see something like this. It is straight forward that the photoemission intensity is proportional the density of electronic states of the material, of course, the spectra is broadened due to the finite resolution of the experimental technique. </p>
+<p>What is angle resolved photoemission spectroscopy or more commonly abbreviated as ARPES? </p>
+<p>The basic principle of photoemission spectroscopy is based on the photoelectric effect. In the process of photoelectric effect, the energy of a photon is absorbed by an electron, if the incident photon has enough energy i.e., if the electron gains enough energy, the electron is emitted from the material to the vacuum. </p>
+<p><img alt="Photoemission schematic" src="../../img/arpes-schematic-2.jpg" /> </p>
+<p>We collect the photo emitted electrons in an electron analyzer which determines the kinetic energy of the electrons and records in which angle the electrons are emitted from the surface. </p>
+<p>Before the photon is absorbed by the electron, it may travel a finite distance inside the material. After the photon is absorbed by the electron, the electron can travel in all direction, however we can detect only the electrons that are coming out of the surface. Also, the mean free path of electron inside a solid is very small. It depends on the kinetic energy of the electron. In UV range, the typical mean free path is of the order of few angstrom. That is why photoemission spectroscopy in the UV range is extremely surface sensitive. </p>
+<p>Now, the most important question is what information can we obtain about the material by analyzing the energy and angle of emission of the photo-emitted electrons. In every process, the total energy and momentum of a system is conserved. From the energy conservation we can determine the binding energy of the electronic state from where the electron is photo-excited. And from the momentum conservation, we can determine the momentum vector of the electronic state. Therefore, we can effectively map the bandstructure of a material by ARPES. </p>
+<p>This single particle assumption of the photoemission process is simplified. In a real material, the electrons are not independent free particles. They are subject to many body interaction. Therefore, interpreting the band structure from the observed photoemission spectra is not often trivial. We need better theoretical modelling and understanding of the system. </p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../three-step-model/" class="btn btn-neutral float-right" title="Three-step model">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../../characterization/laue/" class="btn btn-neutral" title="Laue Diffraction"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>© Copyright 2020 Pranab Das. All rights reserved.</p>
+    
+  </div>
+
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../../characterization/laue/" style="color: #2980B9;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../three-step-model/" style="color: #2980B9">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>

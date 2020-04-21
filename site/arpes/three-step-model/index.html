@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="Pranab Das">
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Three-step model - Condensed Matter Physics</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Three-step model";
+    var mkdocs_page_input_path = "arpes/three-step-model.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/p.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/y.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/t.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/h.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/o.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/n.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Condensed Matter Physics</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../introduction/">Introduction</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Crystal structure</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../crystal-structure/single-crystal/">Single crystal</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../crystal-structure/lattice/">Bravais lattice</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../crystal-structure/reciprocal-lattice/">Reciprocal lattice and Brillouin zone</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../crystal-structure/bragg-diffraction/">Miller indices and Bragg's diffraction</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Crystal growth</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../crystal-growth/crystal-growth/">Various crystal growth methods</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../crystal-growth/why-single-crystal/">Why single crystal</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../crystal-growth/flux-method/">Flux method</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../crystal-growth/bridgman-method/">Bridgman method</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../crystal-growth/czochralski-method/">Czochralski method</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Characterization</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../characterization/characterization/">Material characterization</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../characterization/edax/">EDAX</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../characterization/powder-xrd/">Powder XRD</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../characterization/laue/">Laue Diffraction</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">ARPES</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../arpes-intro/">ARPES introduction</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Three-step model</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#three-step-model">Three-step model</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#photo-excitation">Photo-excitation:</a></li>
+        
+            <li><a class="toctree-l4" href="#transmission-through-the-sample-surface">Transmission through the sample surface</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../arpes-setup/">ARPES setup</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../spin-arpes/">Spin-ARPES setup</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../about/">About</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Condensed Matter Physics</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>ARPES &raquo;</li>
+        
+      
+    
+    <li>Three-step model</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://pranabdas.github.io/"> Homepage</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h3 id="three-step-model">Three-step model</h3>
+<p>In this section we will discuss the basic principles for determining the electronic band structure by measuring the external parameters such as the kinetic energy of the photoemitted electrons, emission angle and spin. </p>
+<p>The most commonly used model for the interpretation of photoemission spectra in solids is the so-called three-step model. It breaks up the complicated photoemission process into three steps: the excitation of the photoelectron, its passage through the solid to the surface and its penetration through the surface into the vacuum, where it is detected. </p>
+<h5 id="photo-excitation">Photo-excitation:</h5>
+<p>The probability of electronic transition from the initial state <span><span class="MathJax_Preview">\mid\psi_i&gt;</span><script type="math/tex">\mid\psi_i></script></span> representing the occupied valence state or core level to a final state <span><span class="MathJax_Preview">\mid\psi_f&gt;</span><script type="math/tex">\mid\psi_f></script></span> due to the absorption of the photon (of energy <span><span class="MathJax_Preview">h\nu</span><script type="math/tex">h\nu</script></span>) can be derived from the first order perturbation theory. According to the Fermi's golden rule, this transition probability is given by: </p>
+<div>
+<div class="MathJax_Preview"> W = \mid &lt;\psi_f \mid \textbf{H}' \mid \psi_i&gt;\mid ^2 \delta(E_f − E_i − h\nu)  </div>
+<script type="math/tex; mode=display"> W = \mid <\psi_f \mid \textbf{H}' \mid \psi_i>\mid ^2 \delta(E_f − E_i − h\nu)  </script>
+</div>
+<p>where <span><span class="MathJax_Preview">\textbf{H}'</span><script type="math/tex">\textbf{H}'</script></span> is the perturbation due to the photon. The <span><span class="MathJax_Preview">\delta</span><script type="math/tex">\delta</script></span>-function ensures the energy conservation. </p>
+<div>
+<div class="MathJax_Preview"> E_{bin} + W_ϕ + E_{kin} = h\nu </div>
+<script type="math/tex; mode=display"> E_{bin} + W_ϕ + E_{kin} = h\nu </script>
+</div>
+<p>The binding energy of the electron in the initial state can be mapped once the kinetic energy of the photo-emitted electron is known. </p>
+<p>The second conservation rule in the photo-excitation process is the momentum conservation. In the solid, the momentum conservation can be expressed as, </p>
+<div>
+<div class="MathJax_Preview">  \textbf{k}_f = \textbf{k}_i \pm \textbf{G}  </div>
+<script type="math/tex; mode=display">  \textbf{k}_f = \textbf{k}_i \pm \textbf{G}  </script>
+</div>
+<p><span><span class="MathJax_Preview">\textbf{G}</span><script type="math/tex">\textbf{G}</script></span> is the reciprocal lattice vector, and <span><span class="MathJax_Preview">\textbf{k}_i</span><script type="math/tex">\textbf{k}_i</script></span>  and <span><span class="MathJax_Preview">\textbf{k}_f</span><script type="math/tex">\textbf{k}_f</script></span>  are the initial and final state wave vectors. </p>
+<p>The momentum corresponding to the incident photon is negligible for the photon energies within the soft x-ray region or lower. </p>
+<p>A free electron cannot satisfy both the energy and momentum conservation laws and thus, cannot absorb a photon. For a free electron the energy momentum relationship is a parabola. For a given initial state, there is no final state for the direct/vertical (<span><span class="MathJax_Preview">\textbf{k}</span><script type="math/tex">\textbf{k}</script></span>-conserved) transition. </p>
+<p>At a photon energy close to soft x-rays or lower, the contribution due to spin-flip transition is negligible <span><span class="MathJax_Preview">(&lt;2\times10^{−2})</span><script type="math/tex">(<2\times10^{−2})</script></span> compared to spin-conserved transition. </p>
+<p>Transport of the photo-excited electrons to the sample surface 
+A direct relation between the energy and momentum of the electrons detected outside the crystal and those inside the crystal can be established only if the electrons do not loose energy on its way to the surface. Inelastically scattered electrons are practically lost for the band structure determination. </p>
+<p>The occurrence of a cascade of inelastic scattering processes produces a large number of low energy electrons. In the photoemission spectra, these so called secondary electrons give rise to a structureless background with a large peak at very low energies. </p>
+<p><img alt="Electron mean free path" src="../../img/arpes-e-mean-free-path.png" /> </p>
+<p>Electron mean free path of the photoelectrons depend on its kinetic energy. Mean free path depends also on the material. The shortest mean free path is often found within the energy range of <span><span class="MathJax_Preview">40-100~eV</span><script type="math/tex">40-100~eV</script></span>; this is an important energy range as the technique is most surface sensitive here. </p>
+<h5 id="transmission-through-the-sample-surface">Transmission through the sample surface</h5>
+<p>Refraction effects occur when the electrons passes through the sample surface due to the potential change arising from the symmetry breaking at the surface. The parallel component of the electron momentum is conserved in this process. </p>
+<div>
+<div class="MathJax_Preview"> \textbf{k}_{\parallel}^{int} = \textbf{k}_{\parallel}^{ext} \pm \textbf{G} </div>
+<script type="math/tex; mode=display"> \textbf{k}_{\parallel}^{int} = \textbf{k}_{\parallel}^{ext} \pm \textbf{G} </script>
+</div>
+<p>Photoemission processes, where the addition of the reciprocal vector, that is not perpendicular to the sample surface, is involved, are called Umklapp process which gives rise to extra final state bands. Neglecting Umklapp process: </p>
+<div>
+<div class="MathJax_Preview"> k_{\parallel}^{int} = \sqrt{(2m / \sin⁡(\theta)}  </div>
+<script type="math/tex; mode=display"> k_{\parallel}^{int} = \sqrt{(2m / \sin⁡(\theta)}  </script>
+</div>
+<p>Perpendicular component can be obtained as if one assumes the free-electron like final states which offset from the vacuum potential by the inner potential <span><span class="MathJax_Preview">V_0</span><script type="math/tex">V_0</script></span>. </p>
+<div>
+<div class="MathJax_Preview"> k_{\perp}^{int} = \sqrt{(2m / \cos⁡(\theta)}  </div>
+<script type="math/tex; mode=display"> k_{\perp}^{int} = \sqrt{(2m / \cos⁡(\theta)}  </script>
+</div>
+<p><span><span class="MathJax_Preview">V_0</span><script type="math/tex">V_0</script></span> can be estimated experimentally by locating the extremal points from the band dispersions. </p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../arpes-setup/" class="btn btn-neutral float-right" title="ARPES setup">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../arpes-intro/" class="btn btn-neutral" title="ARPES introduction"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>© Copyright 2020 Pranab Das. All rights reserved.</p>
+    
+  </div>
+
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../arpes-intro/" style="color: #2980B9;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../arpes-setup/" style="color: #2980B9">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>
