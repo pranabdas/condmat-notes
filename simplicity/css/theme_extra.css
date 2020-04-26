@@ -1,9 +1,3 @@
-/*
- * Sphinx doesn't have support for section dividers like we do in
- * MkDocs, this styles the section titles in the nav
- *
- * https://github.com/mkdocs/mkdocs/issues/175
- */
 .wy-menu-vertical span {
     line-height: 18px;
     padding: 0.4045em 1.618em;
@@ -17,15 +11,6 @@
     padding: 0.4045em 2.427em;
 }
 
-/*
- * Long navigations run off the bottom of the screen as the nav
- * area doesn't scroll.
- *
- * https://github.com/mkdocs/mkdocs/pull/202
- *
- * Builds upon pull 202 https://github.com/mkdocs/mkdocs/pull/202
- * to make toc scrollbar end before navigations buttons to not be overlapping.
- */
 .wy-nav-side {
     height: calc(100% - 45px);
     overflow-y: auto;
@@ -43,38 +28,16 @@
     }
 }
 
-/*
- * readthedocs theme hides nav items when the window height is
- * too small to contain them.
- *
- * https://github.com/mkdocs/mkdocs/issues/#348
- */
 .wy-menu-vertical ul {
   margin-bottom: 2em;
 }
 
-/*
- * Wrap inline code samples otherwise they shoot of the side and
- * can't be read at all.
- *
- * https://github.com/mkdocs/mkdocs/issues/313
- * https://github.com/mkdocs/mkdocs/issues/233
- * https://github.com/mkdocs/mkdocs/issues/834
- */
 code {
     white-space: pre-wrap;
     word-wrap: break-word;
     padding: 2px 5px;
 }
 
-/**
- * Make code blocks display as blocks and give them the appropriate
- * font size and padding.
- *
- * https://github.com/mkdocs/mkdocs/issues/855
- * https://github.com/mkdocs/mkdocs/issues/834
- * https://github.com/mkdocs/mkdocs/issues/233
- */
 pre code {
   white-space: pre;
   word-wrap: normal;
@@ -83,50 +46,17 @@ pre code {
   font-size: 12px;
 }
 
-/*
- * Fix link colors when the link text is inline code.
- *
- * https://github.com/mkdocs/mkdocs/issues/718
- */
-a code {
-    color: #2980B9;
-}
-a:hover code {
-    color: #3091d1;
-}
-a:visited code {
-    color: #9B59B6;
-}
 
-/*
- * The CSS classes from highlight.js seem to clash with the
- * ReadTheDocs theme causing some code to be incorrectly made
- * bold and italic.
- *
- * https://github.com/mkdocs/mkdocs/issues/411
- */
 pre .cs, pre .c {
     font-weight: inherit;
     font-style: inherit;
 }
 
-/*
- * Fix some issues with the theme and non-highlighted code
- * samples. Without and highlighting styles attached the
- * formatting is broken.
- *
- * https://github.com/mkdocs/mkdocs/issues/319
- */
 .no-highlight {
   display: block;
   padding: 0.5em;
   color: #333;
 }
-
-
-/*
- * Additions specific to the search functionality provided by MkDocs
- */
 
 .search-results {
     margin-top: 23px;
@@ -163,11 +93,6 @@ form .search-query {
     padding-left: 3.23em;
 }
 
-/*
- * Improve inline code blocks within admonitions.
- *
- * https://github.com/mkdocs/mkdocs/issues/656
- */
  .admonition code {
   color: #404040;
   border: 1px solid #c7c9cb;
@@ -176,13 +101,6 @@ form .search-query {
   background: rgba(255, 255, 255, 0.7);
 }
 
-/*
- * Account for wide tables which go off the side.
- * Override borders to avoid wierdness on narrow tables.
- *
- * https://github.com/mkdocs/mkdocs/issues/834
- * https://github.com/mkdocs/mkdocs/pull/1034
- */
 .rst-content .section .docutils {
     width: 100%;
     overflow: auto;
@@ -196,10 +114,11 @@ td, th {
 }
 
 /* PKD */ 
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body, input, h1,h2,h3,h4,h5,h6,legend {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Roboto", 'Source Sans Pro', Arial, sans-serif;   
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Roboto, 'Source Sans Pro', Arial, sans-serif;   
 }
 
 code, kbd, pre {
@@ -209,10 +128,14 @@ code, kbd, pre {
 .wy-nav-side { 
     background:#fcfcfc; 
     width: 320px; 
-    padding-right: 20px;
+    padding-right: 20px; 
 }
 
 .wy-side-nav-search a {
+    color: black;
+}
+
+.wy-side-nav-search a:visited {
     color: black;
 }
 
@@ -221,6 +144,10 @@ code, kbd, pre {
 }
 
 .wy-menu-vertical li ul li a { 
+    color:#666; 
+}
+
+.wy-menu-vertical li ul li a:visited { 
     color:#666; 
 }
 
@@ -248,6 +175,10 @@ code, kbd, pre {
     color:#666; 
 }
 
+.toctree-l1 a:visited { 
+    color:#666; 
+}
+
 .wy-side-nav-search input[type=text]{ 
     border-radius:3px; 
     border-color: #ccc; 
@@ -261,17 +192,10 @@ code, kbd, pre {
 
 .rst-versions {
     background: #fcfcfc; 
-    /* background-color: fcfcfc; */
 }
 
 .rst-versions .rst-current-version {
     background: #fcfcfc; 
-    /* background-color: #fcfcfc;  */
-}
-
-.wy-grid-for-nav  .wy-body-for-nav{
-    background: red;
-    background-color: red;
 }
 
 html {
@@ -295,11 +219,13 @@ footer p {
 
 a {
     color: #0099ff;
-}
+} 
+
 a:hover {
     text-decoration: underline; 
     color: #0099ff; 
 }
+
 a:visited {
     color: #0099ff;
 }
@@ -314,3 +240,27 @@ a:hover code {
 a:visited code {
     color: #0099ff;
 }
+
+.wy-side-nav-search a:hover { 
+    text-decoration: none; 
+}
+
+.wy-nav-top a {
+    color: white;
+}
+
+.wy-nav-top a:hover {
+    text-decoration: none;
+}
+
+.rst-footer-buttons a:hover {
+    text-decoration: none;
+}
+
+.fig-caption {
+    padding: 2em; 
+    font-size: 0.95em; 
+    line-height: 1.5em;
+    font-style: italic; 
+    color: #666;
+} 

@@ -4,7 +4,7 @@ This is perhaps the most cleanest method of crystal growth. Here the single crys
 
 One of the limitations of this method is that this method can be applied only to congruently melting compounds, meaning the phase in the molten form and in the solid form is the same. For this, we need to check the phase diagram of the compound. Here is a typical binary phase diagram. 
 
-![Binary phase diagram](../img/binary-phase-diagram.png) 
+![Binary phase diagram](../img/binary-phase-diagram.png){:style="width:500px;"} 
 
 We put the constituent elements in a alumina crucible. Because generally alumina does not react with other metals up to a very high temperature of 1800$~^{\circ}C$. It is preferable to have a sharp tip alumina crucible, in order to allow a single nucleation of crystal. 
 

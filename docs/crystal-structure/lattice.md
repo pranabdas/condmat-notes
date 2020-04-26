@@ -20,15 +20,15 @@ There is no unique way of choosing a primitive cell for a given Bravais lattice.
 
 Here we will consider a two dimensional example: 
 
-![crystal lattice](../img/lattice.png)  
+![crystal lattice](../img/lattice.png){:style="width:400px;"}  
 
 The choice of unit cell ABCD, EFGH or KLMN are all valid as all of them spans the whole crystal. However, the choice of ABCD is probably more convenient. 
 
 There are a total of 14 different Bravais lattice types.  
-![14 different Bravais lattice](../img/14-bravais-lattices.png)  
+![14 different Bravais lattice](../img/14-bravais-lattices.png){:style="width:600px;"}  
 
 There are seven unique crystal system:  
-![7 crystal systems](../img/7-crystal-systems.png)  
+![7 crystal systems](../img/7-crystal-systems.png){:style="width:600px;"}  
 
 **Packing fraction:**  
 Fraction of space filled by the touching spheres at each lattice points. 

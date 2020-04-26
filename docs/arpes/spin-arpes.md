@@ -5,4 +5,6 @@ The basic principle is we put the photoemitted electrons over a magnetized VLEED
 
 A preoxidized Fe (001)-p(1X1)-O is used as a VLEED target. Other non-oxidized targets degrade relatively quickly. 
 
-![Spin-ARPES](../img/spin-arpes.png) 
+![Spin-ARPES](../img/spin-arpes.png){:style="width:500px;"} 
+
+At photon energy in the soft x-ray range or lower, the contribution due to spin-flip transition is negligible $(< 2 \times 10^{−2})$ compared to spin-conserved transition. 

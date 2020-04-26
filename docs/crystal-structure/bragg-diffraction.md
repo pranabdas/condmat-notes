@@ -11,7 +11,7 @@ The distance between successive $(hkl)$ planes can be calculated. In case cubic 
 $$ d_{hkl} = \frac{a}{\sqrt{(h^2 + k^2 + l^2)}} $$ 
 
 **Bragg's x-ray diffraction:**  
-![Bragg x-ray diffraction](../img/bragg-diffraction.png)  
+![Bragg x-ray diffraction](../img/bragg-diffraction.png){:style="width:400px;"}  
 
 Bragg considered x-ray diffraction from a crystal as a problem of reflection from atomic planes. Consider a set of parallel atomic planes of Miller indices $(hkl)$, the distance between successive planes being $d_{hkl}$. From the above figure, we see that rays 1 and 2 can reinforce (interfere constructively) each other in the reflected direction only if their path differences is an integer times wavelength of x-ray $\lambda$. Thus the condition for reflection from the set of planes under consideration: 
 
