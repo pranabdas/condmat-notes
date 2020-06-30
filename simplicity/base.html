@@ -23,9 +23,8 @@
         </title>
         {%- endblock %} {%- block styles %}
         <link
-            href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700"
+            href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
             rel="stylesheet"
-            type="text/css"
         />
 
         <link
@@ -41,7 +40,7 @@
         {%- if config.theme.highlightjs %}
         <link
             rel="stylesheet"
-            href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.1/styles/github.min.css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.1/styles/github.min.css"
         />
         {%- endif %} {%- for path in config['extra_css'] %}
         <link href="{{ path|url }}" rel="stylesheet" />
@@ -56,9 +55,9 @@
         <script src="{{ 'js/jquery-2.1.1.min.js'|url }}" defer></script>
         <script src="{{ 'js/modernizr-2.8.3.min.js'|url }}" defer></script>
         {%- if config.theme.highlightjs %}
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.1/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.1/highlight.min.js"></script>
         {%- for lang in config.theme.hljs_languages %}
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.1/languages/{{ config.theme.hljs_languages }}.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.1/languages/{{ lang }}.min.js"></script>
         {%- endfor %}
         <script>
             hljs.initHighlightingOnLoad();

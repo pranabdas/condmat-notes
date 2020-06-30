@@ -18,9 +18,12 @@ Table of contents:
     - [EDAX](characterization/edax.md) 
     - [Powder XRD](characterization/powder-xrd.md) 
     - [Laue Diffraction](characterization/laue.md) 
++ Electronic structure 
+    - [Tight binding](electronic-structure/tight-binding.md) 
 + [Angle Resolved Photoemission Spectroscopy](arpes/arpes-intro.md) 
     - [Three-step model](arpes/three-step-model.md) 
     - [ARPES setup](arpes/arpes-setup.md) 
     - [Spin-ARPES setup](arpes/spin-arpes.md) 
++ [Mott Insulator Transitions](mit/mit.md) 
 
 I took these notes while studying myself, you might find them helpful. If you have any feedback, suggestions, please let me know. You can find contact details in my [homepage](https://pranabdas.github.io).
