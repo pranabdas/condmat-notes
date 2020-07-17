@@ -41,10 +41,10 @@ $$ \textbf{k}_{\parallel}^{int} = \textbf{k}_{\parallel}^{ext} \pm \textbf{G} $$
 
 Photoemission processes where the addition of the reciprocal vector, that is not perpendicular to the sample surface, is involved, are called Umklapp process which gives rise to extra final state bands. Neglecting Umklapp process: 
 
-$$ k_{\parallel}^{int} = \sqrt{(2m / \sin⁡(\theta)}  $$
+$$ k_{\parallel}^{int} = \sqrt{\frac{2m}{\hbar^2} E_{kin}} \sin(\theta)  $$
 
 Perpendicular component can be obtained if one assumes the free-electron like final states which offset from the vacuum potential by the inner potential $V_0$. 
 
-$$ k_{\perp}^{int} = \sqrt{(2m / \cos⁡(\theta)}  $$
+$$ k_{\perp}^{int} = \sqrt{\frac{2m}{\hbar^2} (E_{kin} + W_{\phi} - V_0)} \sin(\theta)  $$
 
 $V_0$ can be estimated experimentally by locating the extremal points from the band dispersions. 
