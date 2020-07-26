@@ -19,6 +19,7 @@ Table of contents:
     - [Powder XRD](characterization/powder-xrd.md) 
     - [Laue Diffraction](characterization/laue.md) 
 + Electronic structure 
+    - [Bloch theorem](electronic-structure/bloch-theorem.md)
     - [Tight binding](electronic-structure/tight-binding.md) 
 + [Angle Resolved Photoemission Spectroscopy](arpes/arpes-intro.md) 
     - [Three-step model](arpes/three-step-model.md) 
