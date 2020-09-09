@@ -13,7 +13,7 @@
         <link rel="shortcut icon" href="../../img/favicon.ico" />
         
         <title>
-            Various crystal growth methods
+            Quantum Mechanics Basics
             - Condensed Matter Physics
         </title>
         <link
@@ -37,8 +37,8 @@
         /> 
         <script>
             // Current page data
-            var mkdocs_page_name = "Various crystal growth methods";
-            var mkdocs_page_input_path = "crystal-growth/crystal-growth.md";
+            var mkdocs_page_name = "Quantum Mechanics Basics";
+            var mkdocs_page_input_path = "qm/qm.md";
             var mkdocs_page_url = null;
         </script>
         
@@ -93,9 +93,15 @@
                             
     <span class="caption-text">Quantum Mechanics</span>
     <ul class="subnav">
-                <li class="">
+                <li class=" current">
                     
-    <a class="" href="../../qm/qm/">Quantum Mechanics Basics</a>
+    <a class="current" href="./">Quantum Mechanics Basics</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#quantum-mechanics-essentials">Quantum Mechanics Essentials</a></li>
+    
+
+    </ul>
                 </li>
     </ul>
                         </li>
@@ -138,31 +144,25 @@
                             
     <span class="caption-text">Crystal growth</span>
     <ul class="subnav">
-                <li class=" current">
+                <li class="">
                     
-    <a class="current" href="./">Various crystal growth methods</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l3"><a href="#crystal-growth">Crystal growth</a></li>
-    
-
-    </ul>
+    <a class="" href="../../crystal-growth/crystal-growth/">Various crystal growth methods</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../why-single-crystal/">Why single crystal</a>
+    <a class="" href="../../crystal-growth/why-single-crystal/">Why single crystal</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../flux-method/">Flux method</a>
+    <a class="" href="../../crystal-growth/flux-method/">Flux method</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../bridgman-method/">Bridgman method</a>
+    <a class="" href="../../crystal-growth/bridgman-method/">Bridgman method</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../czochralski-method/">Czochralski method</a>
+    <a class="" href="../../crystal-growth/czochralski-method/">Czochralski method</a>
                 </li>
     </ul>
                         </li>
@@ -281,34 +281,41 @@
             &raquo;
         </li>
           
-        <li>Crystal growth &raquo;</li>
+        <li>Quantum Mechanics &raquo;</li>
            
-        <li>Various crystal growth methods</li>
+        <li>Quantum Mechanics Basics</li>
         
     </ul>
     <hr />
 </div>
                         <div role="main">
                             <div class="section">
-                                 <h4 id="crystal-growth">Crystal growth</h4>
-<p>Let us think about the natural formation of crystals. On the earth's surface there are all kinds of atoms – they are continually moved around, mixed by wind, water, volcanic actions etc. Yet somehow one <em>Si</em> atoms find another <em>Si</em> atoms and find oxygen atoms to form silica. <em>Na</em> atoms find <em>Cl</em> atoms and gradually build up <em>NaCl</em> crystal, adding one atom at a time. </p>
-<p>How does it happen that once a crystal growth process begins it only allows a particular type of atom to join on it? It happens because the whole system is working towards the lowest possible energy. A growing crystal will allow a new atom to join if only it is going to make the total energy of the system as low as possible. But how does it know that it will be the minimum energy. Well in nature, it happens by trial and error method. Let's say Na and Cl atoms are forming crystal from its water solution. In liquid, all the atoms are in perpetual motion. Each atom bounces against its neighbors about <span><span class="MathJax_Preview">10^{13}</span><script type="math/tex">10^{13}</script></span> times every second. So if a right atoms goes to a right place the probability of jumping off is somewhat lower. By continually testing over periods of years or millions of year at a frequency of <span><span class="MathJax_Preview">10^{13}</span><script type="math/tex">10^{13}</script></span> tests per second, eventually they grow into a big crystal. </p>
-<p>Depending on the constituent materials, and their melting behavior, there are several crystal growth methods employed in laboratories. </p>
-<p>We will discuss about three different crystal growth methods. </p>
-<ol>
-<li>Flux method or high temperature solution growth method</li>
-<li>Bridgman method </li>
-<li>Czochralski method </li>
-</ol> 
+                                 <h3 id="quantum-mechanics-essentials">Quantum Mechanics Essentials</h3>
+<p>The underlying physics behind condensed matter physics is governed by quantum mechanics. In quantum mechanics, we look for the wave function (<span><span class="MathJax_Preview">\psi</span><script type="math/tex">\psi</script></span>) of particle for a given potential field <span><span class="MathJax_Preview">V(\textbf{r})</span><script type="math/tex">V(\textbf{r})</script></span>. The wave function can be obtained by solving the Schrödinger equation: </p>
+<div>
+<div class="MathJax_Preview">  i \hbar \frac{\partial\psi}{\partial t} = - \frac{\hbar^2}{2m} \frac{\partial^2\psi}{\partial x^2} + V \psi  </div>
+<script type="math/tex; mode=display">  i \hbar \frac{\partial\psi}{\partial t} = - \frac{\hbar^2}{2m} \frac{\partial^2\psi}{\partial x^2} + V \psi  </script>
+</div>
+<p>Once we have the wave function <span><span class="MathJax_Preview">\psi</span><script type="math/tex">\psi</script></span>, the probability of of finding a particle is given by <span><span class="MathJax_Preview">|\psi(x, t)|^2</span><script type="math/tex">|\psi(x, t)|^2</script></span>. To be physically acceptable the wave function has to be square integrable:</p>
+<div>
+<div class="MathJax_Preview">  \int_{-\infty}^{+\infty} |\psi(x, t)|^2 dx = 1  </div>
+<script type="math/tex; mode=display">  \int_{-\infty}^{+\infty} |\psi(x, t)|^2 dx = 1  </script>
+</div>
+<p>If the potential field is time independent, the Schrödinger equation can be solved by separation of variable. The spatial part gives the time independent Schrödinger equation: </p>
+<div>
+<div class="MathJax_Preview">  -\frac{\hbar^2}{2m} \frac{\partial^2\psi}{\partial x^2} + V \psi = E \psi  </div>
+<script type="math/tex; mode=display">  -\frac{\hbar^2}{2m} \frac{\partial^2\psi}{\partial x^2} + V \psi = E \psi  </script>
+</div>
+<p>The above equation can be solved for simple potential fields: for example, square well potential, parabolic potential/ harmonic oscillator, hydrogen atom. </p> 
                             </div>
                         </div> <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../why-single-crystal/" class="btn btn-neutral float-right" title="Why single crystal">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../../molecular-orbital/" class="btn btn-neutral float-right" title="Molecular Orbital">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../../crystal-structure/bragg-diffraction/" class="btn btn-neutral" title="Miller indices and Bragg's diffraction"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../introduction/" class="btn btn-neutral" title="Introduction"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -330,10 +337,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../../crystal-structure/bragg-diffraction/" style="color: #2980B9;">&laquo; Previous</a></span>
+        <span><a href="../../introduction/" style="color: #2980B9;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../why-single-crystal/" style="color: #2980B9">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../../molecular-orbital/" style="color: #2980B9">Next &raquo;</a></span>
       
     </span>
 </div>
