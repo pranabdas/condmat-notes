@@ -125,8 +125,7 @@ h4,
 h5,
 h6,
 legend {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
-        Roboto, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Open Sans", Helvetica, Arial, sans-serif; 
 }
 
 code,
@@ -195,13 +194,17 @@ pre {
 
 .wy-side-nav-search input[type="text"] {
     border-radius: 3px;
-    border-color: #ccc;
+    border-color: #ccc; 
 }
 
 .wy-nav-content-wrap {
     position: relative;
     background: #fcfcfc;
-    z-index: 300;
+    z-index: 300; 
+}
+
+.wy-nav-content {
+    padding: 1.618em 3.236em 0.1em;
 }
 
 .rst-versions {
@@ -308,4 +311,8 @@ blockquote {
     border-left: 3px solid #7a7a7a;
     font-style: italic;
     padding-left: 1em;
+}
+
+.wy-nav-content-wrap .wy-nav-content {
+    padding: 1.618em 1.618em 0.1em;
 }
