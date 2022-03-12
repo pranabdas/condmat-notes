@@ -62,7 +62,7 @@ very low energies.
 <img
   src={require("/img/arpes-e-mean-free-path.png").default}
   alt="arpes-e-mean-free-path"
-  width="400px"
+  width="500px"
 />
 
 Electron mean free path of the photoelectrons depend on its kinetic energy. Mean
@@ -97,3 +97,7 @@ $$
 
 $V_0$ can be estimated experimentally by locating the extremal points from the
 band dispersions.
+
+### Resources
+
+- *Photoelectron Spectroscopy : Principles and Applications* by *Stefan Hüfner*

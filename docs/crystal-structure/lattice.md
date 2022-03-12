@@ -57,11 +57,16 @@ There are a total of 14 different Bravais lattice types.
 
 There are seven unique crystal system:
 
-<img
-  src={require("/img/7-crystal-systems.png").default}
-  alt="7-crystal-systems"
-  width="600px"
-/>
+System       | Unit cell specification
+------------ | -----------------------
+Triclinic    | $a \neq b \neq c$; $\alpha \neq \beta \neq \gamma \neq 90^\circ$
+Monoclinic   | $a \neq b \neq c$; $\alpha = \beta = 90^\circ \neq \gamma$
+Orthorhombic | $a \neq b \neq c$; $\alpha = \beta = \gamma = 90^\circ$
+Tetragonal   | $a = b \neq c$; $\alpha = \beta = \gamma = 90^\circ$
+Cubic        | $a = b = c$; $\alpha = \beta = \gamma = 90^\circ$
+Hexagonal    | Three equal coplanar axes $a$ at $120^\circ$; fourth axis $c \perp$ to these; $c \neq a$.
+Rhombohedral | $a = b = c$; $\alpha = \beta = \gamma \neq 90^\circ$
+
 
 ### Packing fraction
 Fraction of space filled by the touching spheres at each lattice points.

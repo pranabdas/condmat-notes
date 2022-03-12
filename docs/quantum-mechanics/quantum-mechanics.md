@@ -29,3 +29,7 @@ $$
 
 The above equation can be solved for simple potential fields: for example,
 square well potential, parabolic potential/ harmonic oscillator, hydrogen atom.
+
+### Books
+
+- *Introduction to Quantum Mechanics* by *David J. Griffiths*

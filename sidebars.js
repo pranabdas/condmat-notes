@@ -6,6 +6,9 @@ module.exports = {
       type: "category",
       label: "Quantum Mechanics",
       collapsed: true,
+      link: {
+        type: "generated-index",
+      },
       items: [
         "quantum-mechanics/quantum-mechanics",
         "quantum-mechanics/molecular-orbital",
@@ -15,6 +18,9 @@ module.exports = {
       type: "category",
       label: "Crystal Structure",
       collapsed: true,
+      link: {
+        type: "generated-index",
+      },
       items: [
         "crystal-structure/single-crystal",
         "crystal-structure/lattice",
@@ -26,6 +32,9 @@ module.exports = {
       type: "category",
       label: "Crystal Growth",
       collapsed: true,
+      link: {
+        type: "generated-index",
+      },
       items: [
         "crystal-growth/crystal-growth",
         "crystal-growth/why-single-crystal",
@@ -38,6 +47,9 @@ module.exports = {
       type: "category",
       label: "Characterization",
       collapsed: true,
+      link: {
+        type: "generated-index",
+      },
       items: [
         "characterization/characterization",
         "characterization/edax",
@@ -49,15 +61,23 @@ module.exports = {
       type: "category",
       label: "Electronic Structure",
       collapsed: true,
+      link: {
+        type: "generated-index",
+      },
       items: [
         "electronic-structure/bloch-theorem",
         "electronic-structure/tight-binding",
+        "electronic-structure/cef",
+        "electronic-structure/hubbard-model",
       ],
     },
     {
       type: "category",
       label: "ARPES",
       collapsed: true,
+      link: {
+        type: "generated-index",
+      },
       items: [
         "arpes/arpes-intro",
         "arpes/three-step-model",
@@ -66,7 +86,7 @@ module.exports = {
         "arpes/s-p-pol",
       ],
     },
-    "mit",
+    "references",
     "license",
   ],
 };

@@ -45,3 +45,7 @@ Once the single crystal direction is fixed, the same goniometer can be
 transported to a wire cutting machine, and cut in a particular shape (generally
 rectangular bar form) for various anisotropic measurements, for example,
 electrical transport measurement.
+
+### Resources
+- [Laue simulation using Orient Express](
+https://pranabdas.github.io/research/orient-express/)
