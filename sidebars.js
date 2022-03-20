@@ -65,6 +65,7 @@ module.exports = {
         type: "generated-index",
       },
       items: [
+        "electronic-structure/band-theory",
         "electronic-structure/bloch-theorem",
         "electronic-structure/tight-binding",
         "electronic-structure/cef",

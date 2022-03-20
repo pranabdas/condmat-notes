@@ -21,10 +21,10 @@ mobile phones, laptops, and TV screens).
 Unlike in gaseous or liquid states, the constituent atoms/molecules in solid
 state are ordered, they do not move randomly. However, the atoms have thermal
 vibration with respect to their equilibrium position inside the solid. When we
-have a large number of atoms or molecules (of the order of $10^{23}$ molecules
-per $cm^3$) together and the interaction or attraction among them is very
-strong, they bond together. Often the atoms (or group of atoms) arrange
-themselves in a repeated configuration and form crystal structure. 
+have a large number of atoms or molecules (of the order of 10<sup>23</sup>
+molecules per cm<sup>3</sup>) together and the interaction or attraction among
+them is very strong, they bond together. Often the atoms (or group of atoms)
+arrange themselves in a repeated configuration and form crystal structure. 
 
 ## Why study condensed matter?
 The world around us is made up of materials. Some are useful. We need to

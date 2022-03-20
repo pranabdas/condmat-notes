@@ -28,6 +28,7 @@ These notes are work in progress, still far from completion.
     - [Powder XRD](characterization/powder-xrd.md)
     - [Laue Diffraction](characterization/laue.md)
 + [Electronic structure](category/electronic-structure)
+    - [Band Theory of Solids](electronic-structure/band-theory.md)
     - [Bloch theorem](electronic-structure/bloch-theorem.md)
     - [Tight binding](electronic-structure/tight-binding.md)
     - [Crystal electric filed](electronic-structure/cef.md)
