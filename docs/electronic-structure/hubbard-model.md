@@ -32,3 +32,9 @@ field of the ions.
 On the other hand, there is another class of insulators where the insulating
 behavior is understood as a many-electron cooperative phenomena. These type of
 insulators are Mott insulators.
+
+### References
+
+- **The Hubbard model for the hydrogen molecule**, B Alvarez-Fernández and J A
+Blanco, [Eur. J. Phys. **23** 11 (2002)](
+https://doi.org/10.1088/0143-0807/23/1/302).

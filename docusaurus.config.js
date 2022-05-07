@@ -21,7 +21,12 @@ async function config() {
           theme: require("prism-react-renderer/themes/github"),
           darkTheme: require("prism-react-renderer/themes/nightOwl"),
         },
-        hideableSidebar: true,
+        docs: {
+          sidebar: {
+            hideable: true,
+            autoCollapseCategories: true,
+          }
+        },
         // colorMode: {
         //   defaultMode: "dark",
         //   switchConfig: {
@@ -101,15 +106,18 @@ async function config() {
             },
             {
               to: "https://pranabdas.github.io",
-              label: "About me",
-              position: "left",
+              "aria-label": "About me",
+              position: "right",
               target: "_self",
+              className: "header-homepage-link",
+              title: "Pranab's Homepage",
             },
             {
               href: "https://github.com/pranabdas/condmat-notes",
               position: "right",
               className: "header-github-link",
               "aria-label": "GitHub repository",
+              title: "Visit project repository in GitHub",
             },
           ],
         },
@@ -159,9 +167,6 @@ async function config() {
       {
         href: "https://pranabdas.github.io/drive/webfonts/katex/katex.min.css",
         type: "text/css",
-        integrity:
-          "sha384-KiWOvVjnN8qwAZbuQyWDIbfCLFhLXNETzBQjA/92pIowpC0d2O3nppDGQVgwd2nB",
-        crossorigin: "anonymous",
       },
     ],
   };
