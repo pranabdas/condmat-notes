@@ -22,8 +22,7 @@ order to give enough time for crystallization.
 This is how it is done in the lab. Here the compounds are being melted in a
 tetra-arc furnace:
 
-<img
-  src={require("/img/czochralski.png").default}
-  alt="czochralski melting in tetra-arc furnace"
-  width="600px"
-/>
+<picture>
+  <source type="image/webp" srcset={require("/img/czochralski.webp").default} />
+  <img src={require("/img/czochralski.png").default} alt="czochralski" width="600px" />
+</picture>

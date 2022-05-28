@@ -59,11 +59,10 @@ number of low energy electrons. In the photoemission spectra, these so called
 secondary electrons give rise to a structureless background with a large peak at
 very low energies.
 
-<img
-  src={require("/img/arpes-e-mean-free-path.png").default}
-  alt="arpes-e-mean-free-path"
-  width="500px"
-/>
+<picture>
+  <source type="image/webp" srcset={require("/img/arpes-e-mean-free-path.webp").default} />
+  <img src={require("/img/arpes-e-mean-free-path.png").default} alt="arpes-e-mean-free-path" width="500px" />
+</picture>
 
 Electron mean free path of the photoelectrons depend on its kinetic energy. Mean
 free path depends also on the material. The shortest mean free path is often

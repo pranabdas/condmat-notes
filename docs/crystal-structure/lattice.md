@@ -38,22 +38,20 @@ sides.
 
 Here we will consider a two dimensional example:
 
-<img
-  src={require("/img/lattice.png").default}
-  alt="crystal-lattice"
-  width="400px"
-/>
+<picture>
+  <source type="image/webp" srcset={require("/img/lattice.webp").default} />
+  <img src={require("/img/lattice.png").default} alt="lattice" width="400px" />
+</picture>
 
 The choice of unit cell ABCD, EFGH or KLMN are all valid as all of them spans
 the whole crystal. However, the choice of ABCD is probably more convenient.
 
 There are a total of 14 different Bravais lattice types.
 
-<img
-  src={require("/img/14-bravais-lattices.png").default}
-  alt="14-bravais-lattices"
-  width="600px"
-/>
+<picture>
+  <source type="image/webp" srcset={require("/img/14-bravais-lattices.webp").default} />
+  <img src={require("/img/14-bravais-lattices.png").default} alt="14-bravais-lattices" width="600px" />
+</picture>
 
 There are seven unique crystal system:
 
