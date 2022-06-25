@@ -10,9 +10,10 @@ async function config() {
     baseUrl: "/condmat-notes/", // must have a trailing "/"
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
-    favicon: "img/favicon.ico",
+    favicon: "img/favicon.png",
     organizationName: "pranabdas", // Usually your GitHub org/user name.
     projectName: "condmat-notes", // Usually your repo name.
+    titleDelimiter: "•",
     themeConfig:
       /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
       ({
@@ -40,7 +41,7 @@ async function config() {
           hideOnScroll: true,
           logo: {
             alt: "Logo",
-            src: "img/favicon.ico",
+            src: "img/favicon.png",
           },
           items: [
             {
@@ -60,6 +61,11 @@ async function config() {
                 {
                   label: "ARPES Python Tools",
                   to: "https://pranabdas.github.io/arpespythontools/",
+                  target: "_self",
+                },
+                {
+                  label: "C and C++ Programming",
+                  to: "https://pranabdas.github.io/c-cpp/",
                   target: "_self",
                 },
                 {
@@ -90,6 +96,11 @@ async function config() {
                 {
                   label: "Quantum Espresso Tutorial",
                   to: "https://pranabdas.github.io/espresso/",
+                  target: "_self",
+                },
+                {
+                  label: "Rust Programming",
+                  to: "https://pranabdas.github.io/rust/",
                   target: "_self",
                 },
                 {

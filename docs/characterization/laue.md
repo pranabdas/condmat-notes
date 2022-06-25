@@ -14,7 +14,7 @@ back reflected or transmitted scattered x-ray pattern is collected over a x-ray
 film or image plate.
 
 <picture>
-  <source type="image/webp" srcset={require("/img/laue-setup.webp").default} />
+  <source type="image/webp" srcSet={require("/img/laue-setup.webp").default} />
   <img src={require("/img/laue-setup.png").default} alt="ARPESstation" width="600px" />
 </picture>
 
@@ -27,7 +27,7 @@ crystallographic planes. This is how a typical x-ray pattern of a single crystal
 look like.
 
 <picture>
-  <source type="image/webp" srcset={require("/img/laue-pattern.webp").default} />
+  <source type="image/webp" srcSet={require("/img/laue-pattern.webp").default} />
   <img src={require("/img/laue-pattern.png").default} alt="laue-pattern" width="400px" />
 </picture>
 

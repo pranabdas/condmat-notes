@@ -60,7 +60,7 @@ secondary electrons give rise to a structureless background with a large peak at
 very low energies.
 
 <picture>
-  <source type="image/webp" srcset={require("/img/arpes-e-mean-free-path.webp").default} />
+  <source type="image/webp" srcSet={require("/img/arpes-e-mean-free-path.webp").default} />
   <img src={require("/img/arpes-e-mean-free-path.png").default} alt="arpes-e-mean-free-path" width="500px" />
 </picture>
 

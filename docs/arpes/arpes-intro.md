@@ -30,7 +30,7 @@ the electron while inside the material. This in tern, let us learn about the
 full electronic bands inside the material.
 
 <picture>
-  <source type="image/webp" srcset={require("/img/arpes-band-schematic.webp").default} />
+  <source type="image/webp" srcSet={require("/img/arpes-band-schematic.webp").default} />
   <img src={require("/img/arpes-band-schematic.png").default} alt="arpes-band-schematic" width="400px" />
 </picture>
 
@@ -49,7 +49,7 @@ electronic states of the material, however, the spectra is broadened due to the
 finite resolution of the experimental technique.
 
 <picture>
-  <source type="image/webp" srcset={require("/img/arpes-schematic-2.webp").default} />
+  <source type="image/webp" srcSet={require("/img/arpes-schematic-2.webp").default} />
   <img src={require("/img/arpes-schematic-2.jpg").default} alt="arpes-schematic-2" width="400px" />
 </picture>
 

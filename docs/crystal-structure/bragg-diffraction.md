@@ -30,7 +30,7 @@ $$
 ### Bragg's x-ray diffraction
 
 <picture>
-  <source type="image/webp" srcset={require("/img/bragg-diffraction.webp").default} />
+  <source type="image/webp" srcSet={require("/img/bragg-diffraction.webp").default} />
   <img src={require("/img/bragg-diffraction.png").default} alt="bragg-diffraction" width="600px" />
 </picture>
 

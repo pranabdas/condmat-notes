@@ -11,7 +11,7 @@ solid form is the same. For this, we need to check the phase diagram of the
 compound. Here is a typical binary phase diagram.
 
 <picture>
-  <source type="image/webp" srcset={require("/img/binary-phase-diagram.webp").default} />
+  <source type="image/webp" srcSet={require("/img/binary-phase-diagram.webp").default} />
   <img src={require("/img/binary-phase-diagram.png").default} alt="binary-phase-diagram" width="500px" />
 </picture>
 

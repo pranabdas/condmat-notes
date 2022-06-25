@@ -15,7 +15,7 @@ A preoxidized Fe (001)-p(1X1)-O is used as a VLEED target. Other non-oxidized
 targets degrade relatively quickly.
 
 <picture>
-  <source type="image/webp" srcset={require("/img/spin-arpes.webp").default} />
+  <source type="image/webp" srcSet={require("/img/spin-arpes.webp").default} />
   <img src={require("/img/spin-arpes.png").default} alt="spin-arpes" width="500px" />
 </picture>
 
