@@ -29,10 +29,7 @@ particular angle. The angular information is directly related to the momentum of
 the electron while inside the material. This in tern, let us learn about the
 full electronic bands inside the material.
 
-<picture>
-  <source type="image/webp" srcSet={require("/img/arpes-band-schematic.webp").default} />
-  <img src={require("/img/arpes-band-schematic.png").default} alt="arpes-band-schematic" width="400px" />
-</picture>
+<img src={require("/img/arpes-band-schematic.webp").default} alt="arpes-band-schematic" width="400px" class="inv-hue-rot-180"/>
 
 <div class="fig-caption">
 <b>Figure:</b> Schematic of the photoemission process. The density of states of
@@ -48,10 +45,7 @@ straight forward that the photoemission intensity is proportional the density of
 electronic states of the material, however, the spectra is broadened due to the
 finite resolution of the experimental technique.
 
-<picture>
-  <source type="image/webp" srcSet={require("/img/arpes-schematic-2.webp").default} />
-  <img src={require("/img/arpes-schematic-2.jpg").default} alt="arpes-schematic-2" width="400px" />
-</picture>
+<img src={require("/img/arpes-schematic-2.webp").default} alt="arpes-schematic-2" width="400px" class="inv-hue-rot-180"/>
 
 Before the photon is absorbed by the electron, photon may travel a finite
 distance inside the material. After the photon is absorbed by the electron, the

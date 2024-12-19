@@ -10,10 +10,7 @@ congruently melting compounds, meaning the phase in the molten form and in the
 solid form is the same. For this, we need to check the phase diagram of the
 compound. Here is a typical binary phase diagram.
 
-<picture>
-  <source type="image/webp" srcSet={require("/img/binary-phase-diagram.webp").default} />
-  <img src={require("/img/binary-phase-diagram.png").default} alt="binary-phase-diagram" width="500px" />
-</picture>
+<img src={require("/img/binary-phase-diagram.webp").default} alt="binary-phase-diagram" width="500px" class="inv-hue-rot-180"/>
 
 We put the constituent elements in a alumina crucible. Because generally alumina
 does not react with other metals up to a very high temperature of

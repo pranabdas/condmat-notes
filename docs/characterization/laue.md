@@ -13,10 +13,7 @@ collimated over a single crystal. Depending on the property of the material, a
 back reflected or transmitted scattered x-ray pattern is collected over a x-ray
 film or image plate.
 
-<picture>
-  <source type="image/webp" srcSet={require("/img/laue-setup.webp").default} />
-  <img src={require("/img/laue-setup.png").default} alt="ARPESstation" width="600px" />
-</picture>
+<img src={require("/img/laue-setup.webp").default} alt="ARPESstation" width="600px" />
 
 <div class="fig-caption">
 <b>Fig.:</b> A typical laboratory Laue setup.
@@ -26,10 +23,7 @@ Since we are using a white x-ray, we will have a dot for all sets of
 crystallographic planes. This is how a typical x-ray pattern of a single crystal
 look like.
 
-<picture>
-  <source type="image/webp" srcSet={require("/img/laue-pattern.webp").default} />
-  <img src={require("/img/laue-pattern.png").default} alt="laue-pattern" width="400px" />
-</picture>
+<img src={require("/img/laue-pattern.webp").default} alt="laue-pattern" width="400px" class="inv-hue-rot-180"/>
 
 <div class="fig-caption">
 <b>Fig.:</b> Laue pattern of CeGe [010] surface. CeGe has orthorhombic crystal

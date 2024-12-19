@@ -4,10 +4,7 @@ title: ARPES setup
 
 The task is to measure the energy and momentum of the photoemitted electrons.
 
-<picture>
-  <source type="image/webp" srcSet={require("/img/arpes-detector.webp").default} />
-  <img src={require("/img/arpes-detector.png").default} alt="arpes-detector" width="400px" />
-</picture>
+<img src={require("/img/arpes-detector.webp").default} alt="arpes-detector" width="400px" />
 
 An electron analyzer contains three main parts:
 

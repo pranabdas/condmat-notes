@@ -29,10 +29,7 @@ $$
 
 ### Bragg's x-ray diffraction
 
-<picture>
-  <source type="image/webp" srcSet={require("/img/bragg-diffraction.webp").default} />
-  <img src={require("/img/bragg-diffraction.png").default} alt="bragg-diffraction" width="600px" />
-</picture>
+<img src={require("/img/bragg-diffraction.webp").default} alt="bragg-diffraction" width="600px" class="inv-hue-rot-180"/>
 
 Bragg considered x-ray diffraction from a crystal as a problem of reflection
 from atomic planes. Consider a set of parallel atomic planes of Miller indices

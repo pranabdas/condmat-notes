@@ -14,10 +14,7 @@ materials.
 A preoxidized Fe (001)-p(1X1)-O is used as a VLEED target. Other non-oxidized
 targets degrade relatively quickly.
 
-<picture>
-  <source type="image/webp" srcSet={require("/img/spin-arpes.webp").default} />
-  <img src={require("/img/spin-arpes.png").default} alt="spin-arpes" width="500px" />
-</picture>
+<img src={require("/img/spin-arpes.webp").default} alt="spin-arpes" width="500px" />
 
 At photon energy in the soft x-ray range or lower, the contribution due to
 spin-flip transition is negligible $(< 2 \times 10^{−2})$ compared to
