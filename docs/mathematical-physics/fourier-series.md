@@ -63,6 +63,25 @@ $$
 c_n = \frac{1}{2l} \int_{-l}^{+l} f(x) e^{-in\pi x/l} dx
 $$
 
+## Fourier transform
+
+$$
+F(k) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{+\infty} f(x) e^{ikx} dx
+$$
+
+$$
+f(x) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{+\infty} F(k) e^{-ikx} dk
+$$
+
+If $f(x)$ satisfies the Dirichlet conditions and the integral
+
+$$
+\int_{-\infty}^{+\infty} |f(x)|dx
+$$
+
+is finite, then $F(k)$ exists for all $k$ and is called the Fourier transform of
+$f(x)$. The function $f(x)$ is called the inverse Fourier transform of $F(k)$.
+
 ## Resources
 - *Analytic Methods in Physics* by *Charlie Harper*.
 
