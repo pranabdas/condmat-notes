@@ -8,6 +8,8 @@ These notes are work in progress, still far from completion.
 ## Table of contents
 
 + [What is Condensed Matter Physics?](introduction.md)
++ [Mathematical Physics](category/mathematical-physics)
+    - [Fourier Series](mathematical-physics/fourier-series.md)
 + [Quantum Mechanics](category/quantum-mechanics)
     - [QM Introduction](quantum-mechanics/quantum-mechanics.md)
     - [Molecular Orbital](quantum-mechanics/molecular-orbital.md)
