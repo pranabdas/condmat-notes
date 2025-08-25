@@ -10,7 +10,7 @@ module.exports = {
         type: "generated-index",
       },
       items: [
-        "mathematical-physics/fourier-series",
+        "mathematical-physics/fourier-transform",
       ],
     },
     {

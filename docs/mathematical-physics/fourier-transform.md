@@ -1,8 +1,10 @@
 ---
-title: Fourier Series
+title: Fourier Transform
 ---
 
-## Dirichlet's Theorem
+## Fourier Series
+
+### Dirichlet's Theorem
 
 If $f(x)$
 1. is defined and bounded in the interval $[-\pi, \pi]$,
