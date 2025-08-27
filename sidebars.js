@@ -4,6 +4,17 @@ module.exports = {
     "introduction",
     {
       type: "category",
+      label: "Mathematical Physics",
+      collapsed: true,
+      link: {
+        type: "generated-index",
+      },
+      items: [
+        "mathematical-physics/fourier-transform",
+      ],
+    },
+    {
+      type: "category",
       label: "Quantum Mechanics",
       collapsed: true,
       link: {
