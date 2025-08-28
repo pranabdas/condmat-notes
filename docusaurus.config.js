@@ -85,6 +85,11 @@ const config = {
                 target: "_self",
               },
               {
+                label: "Machine Learning Notes",
+                to: site_url + "/machine-learning/",
+                target: "_self",
+              },
+              {
                 label: "OpenMX tutorial",
                 to: site_url + "/openmx/",
                 target: "_self",
