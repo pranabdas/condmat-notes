@@ -8,11 +8,11 @@ Where we dissolve CuSO<sub>4</sub> in the water solution. We gradually add
 CuSO<sub>4</sub> in the water. At one point we cannot add anymore
 CuSO<sub>4</sub> once the solution becomes saturated. We can heat the solution,
 and add more amount of CuSO<sub>4</sub>. Now if we allow the solution to cool
-down, the extra amount of CuSO<sub>4</sub> tries to solidify. And if we allow
-enough time to cool, they solidify in a crystalline form.
+down, the extra amount of CuSO<sub>4</sub> tries to solidify. And if we do it
+slowly, they solidify in a crystalline form.
 
 In our case, we are interested in growing metallic single crystals. We need to
-find a good solvent for metal (water is cannot dissolve metals). But there are
+find a good solvent for metals (water cannot dissolve metals). But there are
 metals, which can dissolve another metal. For example, tin (Sn) is a good
 solvent of many other metals. The melting point of tin is 230&nbsp;°C.
 Generally, we take the elements and flux in the ratio (atomic) of 5% : 95%. We
@@ -25,3 +25,8 @@ hours for proper homogenization. Then we cool down very slowly, say at a rate of
 If we cool down to room temperature, the single crystal will be inside the solid
 tin. In order to separate the crystal from the tin, we need to heat it about
 300&nbsp;°C, and decant the molten tin by using  a centrifuge.
+
+
+## References
+
+- P.C. Canfield, Z. Fisk, Philosophical Magazine B, **65**, pp. 1117-1123 (1992).
