@@ -69,3 +69,8 @@ real material, the electrons are not independent free particles. They are
 subject to many-body interaction. Therefore, interpreting the band structure
 from the observed photoemission spectra is not often trivial. We need some
 theoretical modelling and understanding of the system.
+
+### Resources
+
+- *Photoelectron Spectroscopy : Principles and Applications* by *Stefan Hüfner*
+- [Angle-Resolved Photo Emission Spectroscopy entry on Wikipedia](https://en.wikipedia.org/wiki/Angle-resolved_photoemission_spectroscopy) ([PDF](/pdf/ARPES_wikipedia.pdf))
