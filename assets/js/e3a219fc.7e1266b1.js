@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcondmat_notes=self.webpackChunkcondmat_notes||[]).push([["7046"],{6959(t){t.exports=JSON.parse('{"metadata":{"permalink":"/condmat-notes/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":0,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
